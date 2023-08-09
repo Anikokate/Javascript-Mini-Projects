@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0066ff;
+}
+
+.box {
+    border: 1px solid #000;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    margin: 30px;
+}
+
+.bg-img {
+    background-image: url('./img/pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center center/cover;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.hold {
+    border: 1px solid #fff;
+}
+
+.hovered {
+    background-color: #333;
+    border:3px dotted #fff;
+}
